@@ -114,14 +114,14 @@
         - inline (cannot take width and height) -> only uses as much space as needed to contain the element
 - common tags
     - headings (block)
-        - <h1>, <h2>, <h3> etc
+        - h1, h2, h3 etc
         - have syntax and semantics
             - things in h1 has much more importance than h2 and so it goes, affects screen readers
     - paragraphs (block)
-        - <p> ... </p>
+        - p ... /p
         - should only contain inline elements
     - div (block)
-        - <div> ... </div>
+        - div ... /div
         - generic section that is larger than a paragraph
     - ordered lists (ol, li)
     - unordered lists (ul, li)
