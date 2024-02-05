@@ -104,6 +104,8 @@
 
 # HMTL Tags
 
+## Syntax tags
+
 - every tag has a beginning <start> and an end </end>
     - some tags are self-closing <tag>
 - some tags have attributes (src, href etc)
@@ -135,7 +137,7 @@
         - accesskey -> shortcur key to activate an element
         - tabindex -> order elements will come into focus using the key
 - images
-    - inline: img src="name.jpg" alt="description" title="titleOnHover" class"extraFormatting"
+    - inline: img src="name.jpg" alt="smallDescription" title="titleOnHover" class"extraFormatting"
     - images rarely work the first time
         - size and carefully name your picture before you use it
 - special entities can be used for certain characters(research when needed)
@@ -144,3 +146,31 @@
     - WPKube cheatsheet: https://www.wpkube.com/html5-cheat-sheet/
     - https://htmlcheatsheet.com/
     - Webaim cheatsheet: https://webaim.org/resources/htmlcheatsheet/
+
+
+## Semantic tags
+
+- how to design
+    - the most important step in web design is the design itself
+    - you need a clear picture of what you want to create before you can begin coding
+    - semantic tags help guide users to information in your page
+- using semantic tags
+    - in the beginning there was div
+    - div was a way to group related content together
+    - divs always always had special classes/ids associated with them
+- header
+    - a group of introductory or navigational aids: title, navigation links etc
+    - not to be confused with head or different headings
+- nav
+    - section of the page that links to other pages or parts within the page
+    - often found in the header tag
+- footer
+    - contains info such as copyright data, related documents and links to social media
+    - tipically at the bottom of the page, but not required
+- figure
+    - more semantics than img
+    - can include
+        - caption
+        - multiple multimedia resources
+
+- resources: https://www.w3schools.com/html/html5_semantic_elements.asp
