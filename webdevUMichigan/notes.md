@@ -101,3 +101,46 @@
         - close inner tags before outer ones
         - use valid attributes
     - browsers will "fix" bad code, but not always well -> use a validator to check your code
+
+# HMTL Tags
+
+- every tag has a beginning <start> and an end </end>
+    - some tags are self-closing <tag>
+- some tags have attributes (src, href etc)
+    - display -> one of the most important attributes of an element
+        - block (can take width and height) -> newline is inserted before and after, eg it "takes up" the whole width
+        - inline (cannot take width and height) -> only uses as much space as needed to contain the element
+- common tags
+    - headings (block)
+        - <h1>, <h2>, <h3> etc
+        - have syntax and semantics
+            - things in h1 has much more importance than h2 and so it goes, affects screen readers
+    - paragraphs (block)
+        - <p> ... </p>
+        - should only contain inline elements
+    - div (block)
+        - <div> ... </div>
+        - generic section that is larger than a paragraph
+    - ordered lists (ol, li)
+    - unordered lists (ul, li)
+    - line breaks (br)
+- attributes
+    - attributes provide additional information about an element
+    - always specified in the start tag
+    - attributes come in name/value pairs
+    - some types
+        - class -> applies special properties to groups of elements
+        - id -> specifies a unique id to one element on the page
+        - style -> specifies a certain visual style (avoid!!)
+        - accesskey -> shortcur key to activate an element
+        - tabindex -> order elements will come into focus using the key
+- images
+    - inline: img src="name.jpg" alt="description" title="titleOnHover" class"extraFormatting"
+    - images rarely work the first time
+        - size and carefully name your picture before you use it
+- special entities can be used for certain characters(research when needed)
+
+- resources:
+    - WPKube cheatsheet: https://www.wpkube.com/html5-cheat-sheet/
+    - https://htmlcheatsheet.com/
+    - Webaim cheatsheet: https://webaim.org/resources/htmlcheatsheet/
