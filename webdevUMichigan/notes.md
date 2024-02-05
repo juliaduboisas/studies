@@ -57,3 +57,47 @@
     3. add doctype, head, and body tags
     4. save file
     5. open in browser
+- troubleshooting
+    - file opens in an editor instead of a browser -> right click and select "Open With"
+    - browser shows tags -> check that the file extension is .html
+    - changed code but page still looks the same -> refresh browser, verify file name
+    - "weird" characters -> try typing code in by hand, not copy-and-paste
+
+# The Document Object Model (DOM)
+
+- Basis of HTML5 is "New features should be based on HTML, CSS, the DOM, and JavaScript [...]"
+- DOM provides common tree-like structures that all pages should follow
+- Computer Scientists love trees because you can test them
+- HTML is built on the DOM
+    - two parts: head and body
+    - head: information the user isn't going to see (metadata)
+    - body: all HMTL5 tags (displayable content)
+    - at the root is the html tag (DOCTYPE)
+
+- Doctype
+    - !DOCTYPE html
+
+- head
+    - additional info used by the browser
+        - metadada (lang, title)
+        - supporting files (JS, styling, add-ons)
+    - other than the title, metadata is not displayed
+
+- body
+    - bulk of the page
+    - important to write well-formatted (aka tree-like) code
+        - every tag NEEDS an end
+    - most of the content is displayed by the browser, but there may be some metadata too
+
+- validate the code
+    - https://validator.w3.org
+    - can validate by URL, by file or direct input
+    - don't worry about warnings
+    - sometimes one error can cause a lot of other errors
+
+- review
+    - well-formatted pages use the DOM structure
+        - use beginning and end tags
+        - close inner tags before outer ones
+        - use valid attributes
+    - browsers will "fix" bad code, but not always well -> use a validator to check your code
