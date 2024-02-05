@@ -1,4 +1,6 @@
-*HOW LINKS WORK*
+# How it works
+
+## Page requests and URLs
 
 - it's common that networks use a LAN or a WAN
     - LAN -> local area network
@@ -29,3 +31,29 @@
 - the response
     - the server returns files, not "web pages", and it is up to the browser to decide what to do with those files
     - if the servevr can't fulfill the request it will sent back files with error codes
+
+# Tools and tips
+
+## Browsers and accessibility
+
+- http://www.html5accessibility.com/ keeps a review of the accessibility of browsers
+- browsers should have
+    - keyboard functionality
+    - support HTML5 tags
+    - support features for assistive technology
+- browsers can vary in how well they adhere to HTML5 standards
+- different versions of browsers need to be considered as well
+- test in a variety!!
+
+## How to use an editor to create an HTML file
+
+- creating and editing your files
+    1. decide how you will organize your files
+    2. decide on a naming convention
+    3. decide on an editor
+- getting started
+    1. open your editor
+    2. select "Save" or "Save As" and name your file, may need to create a folder first
+    3. add doctype, head, and body tags
+    4. save file
+    5. open in browser
