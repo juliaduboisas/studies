@@ -1,0 +1,31 @@
+*HOW LINKS WORK*
+
+- it's common that networks use a LAN or a WAN
+    - LAN -> local area network
+    - WAN -> wide area network
+- every URL (Uniform Resource Locator) has three parts:
+    - protocol -> how to connect
+    - domain -> server
+    - (optional) document -> specific file needed
+        - most pages are made up of multiple files
+- protocols
+    - HTTP (hypertext transfer protocol)
+    - HTTPS (secure hypertext transfer protocol)
+    - FTP (file transfer protocol)
+- domanin names
+    - identifies the entity you want to connect to
+    - each has a different top-level domain (.com, .edu etc)
+        - determined by the Internet Corporation for Assigned Names and Numbers (ICAAN)
+- IP Adresses
+    - Internet Protocol Version 6 (IPv6) is the communication protocol that idetifies computers on networks
+    - every computer has a unique IP address xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx where x can have 16 different values
+- document
+    - URLs can specify a document
+    - if no document is specified, it will return the default document (usually index.html)
+
+- the request
+    - once the IP address is determined, the browser creates an HTTP request
+    - lots of hidden info in this request (header, cookied, form data etc)
+- the response
+    - the server returns files, not "web pages", and it is up to the browser to decide what to do with those files
+    - if the servevr can't fulfill the request it will sent back files with error codes
