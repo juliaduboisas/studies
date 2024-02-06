@@ -263,3 +263,35 @@
     - a page without links is rare
     - links can be absolute, relative and internal
     - use caution when using images in links
+
+# Useful tags
+
+- choosing your tags
+    - generic: p, div
+    - semantic: header, nav, footer, figure
+- block tags
+    - containers: article, aside, section, main etc
+    - hr
+    - address
+    - blockquote -> has cite attribute
+    - details -> with summary
+- inline tags
+    - span was the original inline tag for plain text
+    - cite
+    - abbr
+    - time
+    - code
+    - sub -> with sup
+- tags that need "more"
+    - button
+    - meter
+    - progress
+    - iframe -> often used to embed documents
+    - bdo -> attribute dir (ltr or rtl)
+    - map -> with area -> creates "clickable element in image" but needs JavaScript
+
+- review
+    - use the most specific tag possible
+    - sometimes tags "don't work"
+        - run your code through a validator, you may have a syntax error
+        - run your code in multible browsers (good idea even if your code looks good)
