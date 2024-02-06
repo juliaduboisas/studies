@@ -228,3 +228,38 @@
     - add aria-labels when you can't add alt text
     - avoid excessive emojis
     - diversify your images
+
+# Hyperlinks
+
+- links
+    - links are what make the Web a web
+    - the interlinked nature of the web leads to the "knowledge" that search engines appear to have
+- anchor links
+    - the "a" tag stands for *anchor link*
+    - needs a hyper-reference AND content
+        - href: reference to location of new content
+        - content: the "clickable" part
+            - the content does not have to be text (eg can be an image etc)
+- types of links
+    - absolute
+    - relative
+    - internal
+    - graphical
+- never use a reference that references your own files
+- absolute vs relative
+    - when would you use absolute links?
+    - are there any benefits to using local links?
+- always test your links!!
+- usability issues
+    - make sure the clickable component has an informative name
+    - information in the images should be available for those who can't see the image
+- targets
+    - anchors can take a target attribute
+        - _self - default action
+        - _blank - open in new tab or window
+        - _top and _parent
+
+- review
+    - a page without links is rare
+    - links can be absolute, relative and internal
+    - use caution when using images in links
