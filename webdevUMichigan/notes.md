@@ -295,3 +295,70 @@
     - sometimes tags "don't work"
         - run your code through a validator, you may have a syntax error
         - run your code in multible browsers (good idea even if your code looks good)
+
+# Accessible Web
+
+- what does a "web accessibility coordinator" do?
+    - helps guide policy and purchasing decisions
+    - evaluates web interfaces for accessibility
+    - assists those with disabilities to access online infrastructure
+    - keep pace with changing technology
+- types of diabilities
+    - visual issues
+    - hearing issues
+    - motor issues
+    - cognitive issues
+- four principles of the W3C Web Content Accessibility Guidelines (POUR)
+    - perceivable
+    - operable
+    - understandable
+    - robust
+
+- review
+    - designing with accessibility in mind is the right thing to do for many reasons
+    - adhering to standards is key
+    - pay attention to the semantics behind the HTML5 tags
+
+# Validating your code
+
+- three approaches
+    - validate by URI
+    - validade by filename
+    - validade by direct input
+- tips
+    - errors propagate, so always start at the top
+    - search for solutions online and in forums
+- accessibility validation
+    - https://wave.webaim.org 
+    - install an extension to check local pages
+
+- review -> validated sites are more robust and more accessible
+
+# Hosting your site
+
+- requirements
+    - domain name
+    - hosting company
+- domain names
+    - typically purchased for multiple years at cheap rate
+    - most common is .com, but other extnsions are gaining acceptance
+    - domain names are useless on their own
+- hosting
+    - you need a registered IP address to connect with your domain name
+    - hosting services vary (free, mid-range, full-service)
+        - free
+            - little/no control of domain name
+            - limited tools
+            - advertising and redirects
+            - familiar look and feel across them
+        - paid
+            - tend to have better code
+            - support is available
+            - check for free services through work/school
+
+# Beyond
+
+- continue to practice skills
+- get comfortable with multiple editors
+- try uploading your code
+- begin to learn about Cascading Style Sheets
