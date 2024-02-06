@@ -174,3 +174,57 @@
         - multiple multimedia resources
 
 - resources: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+# Images
+
+- many file types are widely supported (jpg, jpeg, gif, png, svg, bmp)
+    - file extensions must be included
+- every image must be downloaded, so size can be a factor
+- every image requireds an HTTP request
+- when you link to an image the browser displays the image as big or small as the file (which is rarely optimal)
+    - "quick" solutions -> change file, use width/height attributes
+- using attributes -> some style may improve accessibility
+    - avoid hardcoding width/height, instead use percentages
+- favicons
+    - always goes in the head section
+    - you can put image/logo/icon next to the tile of your page (in the tab)
+- alternative text attribute
+    - provides a textual alternative to non-text content
+    - read by screen readers
+    - displayed in place of images
+    - provides semantic meaning for search engines
+
+- review
+    - misuse of file extension, filename and file paths are often a problem
+    - style the height/wigth in the html code (for now)
+
+## Accessible Images
+
+- alt text attribute
+    - provides a textual alternative to non-textual content
+    - read by screen readers
+    - displayed in place of images
+    - provides semantic meaning for search engines
+- creating good alt text
+    - be accurate
+    - be succinct
+    - don't be redundant
+    - don't include "picture of...", "graphic of..."
+    - empty alt text is ok for decorative images (leave null, but don't skip the alt attribute)
+    - long alt text -> consider replacing alt text with link to separate page with full explanation
+- finding usable images
+    - personal images
+    - images from image-sharing sites
+    - images with creative commons usage
+    - icons
+- emojis and icons
+    - emojis have descriptions for screen-readers
+    - icons don't have the alt attribute, instead they have aria-label
+- images for impact
+    - don't constrain yourself to the most common images
+    - using diverse images has the ability to draw more people to your site
+- tips
+    - utilize guidelines: https://www.w3.org/WAI/tutorials/images/decision-tree/ 
+    - add aria-labels when you can't add alt text
+    - avoid excessive emojis
+    - diversify your images
