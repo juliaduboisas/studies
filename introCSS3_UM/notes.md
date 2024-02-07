@@ -66,3 +66,52 @@
     - use web safe colors and use an accepted convention
     - test your site using a contrast checker
     - avoid using color to convey meaning
+
+# Styling your text
+
+- options
+    - font (family, style, variant, size)
+    - color and background
+    - alignment
+    - line-height
+- font-family
+    - font families are styles of text
+    - not all font-families are supported by all the operating systems, so you can provide alternatives
+    - some fonts are not as user-friendly, use sans-serif when possible
+    - custom fonts -> to expand beyond "web-safe"" fonts use @font-face
+    <code>
+        @font-face{
+            font-family: specialFont;
+            src: url('font.ttf');
+        }
+    </code>
+- font-style
+    - normal
+    - italic
+    - oblique
+- font-variant
+    - normal
+    - small-caps
+- font-size
+    - options
+        - xx-small, x-small, small, smaller
+        - medium
+        - large, larger, x-large, xx-large
+        - use pixel
+        - use %
+- color and background-color
+    - the color attribute is the color of the foreground
+    - the background-color is the color of the background
+- text-align
+    - left
+    - right
+    - center
+    - justify
+- line-height
+    - doesn't affect the font, adjusts the space between the lines of text
+
+- review
+    - the number of options for styling text can seem overwhelming
+    - practive on toy problems
+    - design larger projects on papar first
+
