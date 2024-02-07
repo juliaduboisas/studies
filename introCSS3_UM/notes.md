@@ -1,0 +1,51 @@
+# CSS: Cascading Style Sheets
+
+- browser default styling: usually really plain
+- cascading style sheet
+    - CSS defined generic rules that can apply to multiple elements
+- adding style
+    - as styling tags were phased out of HTML, styling was done with the style attribute
+        - this violates the separation of content and style
+- CSS defined generic rules that can apply to multiple elements
+    - with the selector you choose what you want to style
+    - inside it you choose what you want to change
+        
+        selector {
+            property:value;
+        }
+
+    - brackets and semicolons are very important
+        - this is where a good editor can make a BIG difference
+    - comments are in the same way as C
+    - you can have as many property/value pairs as you want
+- internal style sheet
+    <code>
+        <head>
+            <meta charset="UTF-8">
+            <title>Title here</title>
+            <style>
+                h1{
+                    color:blue;
+                }
+            </style>
+        </head>
+    </code>
+    - styles are applied to all elements in that file
+- external style sheet
+    - you can put rules in an external file (don't use the style tag!!)
+    - a link to the style sheet is put in the head section
+        <code> 
+            <link rel="stylesheet" href="style.css">
+        </code>
+    - styles are applied to all elements in all files that links to the style sheets
+
+# The "Cascading" of CSS
+
+- order of precedence (lowest to biggest)
+    - Browser default
+    - External style
+    - Internal style
+    - Inline style
+- if one selector is defined in two different
+    - the most recent rule has preference (with insider code or external styles)
+- if you use the !important tag, it overrides the rest
