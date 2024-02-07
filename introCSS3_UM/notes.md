@@ -49,3 +49,20 @@
 - if one selector is defined in two different
     - the most recent rule has preference (with insider code or external styles)
 - if you use the !important tag, it overrides the rest
+
+# Colors
+
+- color conventions
+    - color names work, but should be avoided (use hex or RGB or RGBa)
+- accessibility
+    - appropriate use of color is critical to web accessibility
+    - many more people are visually impaired or color blind than are legally blind
+    - color contrast tools
+        - http://wave.webaim.org/
+        - http://webaim.org/resources/contrastchecker/
+    - don't use color alone to convey meaning
+
+- review
+    - use web safe colors and use an accepted convention
+    - test your site using a contrast checker
+    - avoid using color to convey meaning
