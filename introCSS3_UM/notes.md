@@ -115,3 +115,31 @@
     - practive on toy problems
     - design larger projects on papar first
 
+# Display and visibility
+
+- display is key to layout
+    - every element is a box
+    - display affects the layout of neighbouring elements
+- common values
+    - inline: sit next to other elements
+        - takes up "just enough" width and height
+    - block: forces line break
+        - default: take up all horizontal width and "just enough" height
+        - rules can set height and width
+    - inline-block: same as inline, but accepts height and width
+    - none: removed from page
+        - still in DOM, but not visual
+- complementary properties
+    - float
+        - reposition elements to the right or left
+        - elements are aware of one another and will not overlap
+        - values: left, right
+    - clear
+        - used to keep floating elements away
+        - values: left, right, both
+- element overflow
+    - visible: can cause text to show up "on top" of other text
+    - hidden: hides anything that goes beyond bounding box
+        - this can cause problems since if the user increases font size, they may not be able to see content
+    - scroll: gives horizontal and verticle scrollbars
+    - auto: adds scrollbars as needed
