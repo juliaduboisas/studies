@@ -143,3 +143,19 @@
         - this can cause problems since if the user increases font size, they may not be able to see content
     - scroll: gives horizontal and verticle scrollbars
     - auto: adds scrollbars as needed
+- other display values
+    - table
+    - grid
+    - flexbox
+- visibility
+    - specifies whether or not the element is visible
+    - options
+        - visible
+        - hidden
+        - collapse (only for table elements)
+    - unlike display:none a hidden element is still part of the DOM  and still takes up space
+
+- review
+    - display is just one tool for positioning our elements on the page
+    - early design will make the coding easier
+    - utilize tools to see the different options
