@@ -176,4 +176,6 @@
         3. set flex-direction to row or column
         4. set the justify-items and/or align content
     - children elements
-        
+
+## Styling links and lists
+- 
