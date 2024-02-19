@@ -21,8 +21,8 @@ a {
 }
 
 img{
-    width: 80%;
-    height:80%;
+    width: 200px;
+    height:200px;
 }
 
 div{
@@ -30,7 +30,9 @@ div{
 }
 
 main{
-    display:grid;
-    grid-template-columns: 30% 30% 30%;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
 }

@@ -165,4 +165,15 @@
     1. set display to grid
     2. set grid-template-columns to number and size of columns
     3. set justify-content
-- 
+
+## Display: Flex
+- you can use if you want to let the browser resize your elements based on the screen size
+- you need to define a *parent* element and give it *children* elements
+- how to
+    - parent element
+        1. set display to fle
+        2. set flex-wrap to wrap or nowrap
+        3. set flex-direction to row or column
+        4. set the justify-items and/or align content
+    - children elements
+        
