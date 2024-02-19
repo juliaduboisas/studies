@@ -21,10 +21,16 @@ a {
 }
 
 img{
-    width:200px;
-    height:200px;
+    width: 80%;
+    height:80%;
 }
 
 div{
     display: inline-block;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
 }

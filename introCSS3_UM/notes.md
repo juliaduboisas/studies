@@ -159,3 +159,10 @@
     - display is just one tool for positioning our elements on the page
     - early design will make the coding easier
     - utilize tools to see the different options
+
+## Display: Grid
+- steps
+    1. set display to grid
+    2. set grid-template-columns to number and size of columns
+    3. set justify-content
+- 
