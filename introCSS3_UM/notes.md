@@ -178,4 +178,23 @@
     - children elements
 
 ## Styling links and lists
-- 
+- links are what make up a website, are super important
+- additional property: text-decoration
+- many designers want links to look like buttons, instead just use an actual button
+- different linkk states
+    - a:link -> normal, unvisited
+    - a:visited -> already visited
+    - a:hover -> what happens when hovering, doesn't exist in mobile
+    - a:focus -> tapping
+    - a:active -> when clicking
+- some list properties
+    - list-style-type
+    - list-style-image
+    - list-style-position
+    - list-style
+
+## Navigation
+- navigation should be styled differently from the rest of the page
+- to choose only the navigation links use "nav a" as the tag
+- choose a different background color
+- use list formatting to format the navigation

@@ -16,7 +16,7 @@ p {
 
 a {
     color:#0008ff;
-    text-decoration: none;
+    text-decoration:underline;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,8 +31,28 @@ div{
 
 main{
     display: flex;
-    height: 600px;
+    height: 300px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+nav{
+    height:10;
+    background: rgb(170, 170, 170);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.current{
+    text-transform:uppercase;
 }
