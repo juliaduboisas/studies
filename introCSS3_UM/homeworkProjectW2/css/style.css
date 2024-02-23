@@ -18,6 +18,13 @@ nav {
   width:80%;
 }
 
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 header img{
   width:10%;
   position: relative;
