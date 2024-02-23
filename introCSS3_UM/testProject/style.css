@@ -27,6 +27,7 @@ img{
 
 div{
     display: inline-block;
+    margin:auto;
 }
 
 main{
@@ -38,12 +39,16 @@ main{
 }
 
 nav{
-    height:10;
-    background: rgb(170, 170, 170);
+    background:url('images/rainbowBackground.jpg');
+    height:30px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 nav a{
     text-decoration: none;
+    color:rgb(0,0,0,1);
 }
 
 nav ul{

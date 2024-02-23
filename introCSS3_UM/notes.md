@@ -193,8 +193,27 @@
     - list-style-position
     - list-style
 
-## Navigation
+# Navigation
 - navigation should be styled differently from the rest of the page
 - to choose only the navigation links use "nav a" as the tag
 - choose a different background color
 - use list formatting to format the navigation
+
+# Browser Capabilities
+- handling stylistic differences
+    - "easiest" way to eliminate browser differences is to use a default style sheet
+        - reset all values for your values for the page
+- handling unsupported properties
+    - browser prefices provide a quick fix to unsupported CSS3 properties
+        - -webkit-
+        - -moz-
+        - -ms-
+        - -o-
+    - some common unsupported properties
+        - column-count
+        - border radius
+        - gradient
+        - www.caniuse.com
+- automated ways to include prefixes
+    - editor add-ons
+    - outside programs to dynamically add appropriate prefix based on browser
